@@ -1,0 +1,4 @@
+python3 gpg.py -a RSA -k 1024 2048 4096 -q 100 >> RSA_results.txt
+python3 gpg.py -a ElGamal -k 1024 2048 4096 -q 100 >> ElGamal_results.txt
+python3 gpg.py -a ECC -k nistp256 nistp384 nistp521 -q 100 >> ECC_results.txt
+
